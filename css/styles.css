@@ -4,7 +4,11 @@ body{
   box-sizing: border-box;
   background: hsl(0, 0%, 98%);
 }
-
+.sec{
+    position: relative;
+    padding-left: 60px;
+    padding-top: 50px;
+}
 main{
     text-align: center;
 }
@@ -12,12 +16,14 @@ main{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    margin-left: 532px;
     border-top: 2px solid ;
     border-top-color: hsl(0, 78%, 62%);
+    display: inline-block;
     position: relative;
+    left: 110px;
     height: 15rem;
     width: 21.875rem;
+    background-color:white;
 }
 
 .t-card:hover {
@@ -32,9 +38,12 @@ main{
     border-top-color: hsl(180, 62%, 55%);
     height: 15rem;
     width: 21.875rem;
+    display: inline-block;
     position: relative;
-    left: 160px;
-    bottom: 150px;
+    left: 90px;
+    top:80px;
+    background-color:white;
+    margin: 0;
     
 }
 
@@ -50,9 +59,11 @@ main{
     border-top-color: hsl(212, 86%, 64%);
     height: 15rem;
     width: 21.875rem;
+    display: inline-block;
     position: relative;
-    left: 905px;
-    bottom: 395px;
+    left: 130px;
+    top: 110px;
+    background-color:white;
     
 }
 
@@ -68,10 +79,10 @@ main{
     border-top-color: hsl(34, 97%, 64%);
     height: 15rem;
     width: 21.875rem;
+    display: inline-block;
     position: relative;
-    left: 530px;
-    bottom: 470px;
-    
+    left: 465px;
+    background-color:white;
 }
 
 .k-card:hover {
@@ -80,7 +91,6 @@ main{
 
 .footer{
     position: relative;
-    bottom: 460px;
 }
 
 .fh1{
@@ -96,8 +106,8 @@ main{
 
 .fp {
   color: var(--grayish-blue);
-    width: 30%;
-  font-weight: 400;
+    width: 33%;
+  font-weight: 100;
   text-align: center;
   font-size: 1em;
     margin: auto;
