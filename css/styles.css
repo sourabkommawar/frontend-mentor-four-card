@@ -132,3 +132,39 @@ main{
     right: 20px;
     bottom: 20px;
 }
+
+@media (max-width:370px){
+    .s-card{
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .t-card{
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .c-card{
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .k-card{
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .fp{
+        width: 90%;
+}
+    .sec{
+        padding: 0;
+        margin: 5%;
+    }
+    .fh1{
+        line-height: 1.5;
+    }
+    .emg{
+        position: relative;
+    }
+}
